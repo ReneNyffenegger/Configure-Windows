@@ -8,3 +8,5 @@
 @regedit /s console.reg
 
 @call registry.explorer.bat
+
+@call environment.variables.bat
