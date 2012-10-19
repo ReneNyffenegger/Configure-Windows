@@ -10,3 +10,5 @@
 @call registry.explorer.bat
 
 @call environment.variables.bat
+
+@call sound.bat
