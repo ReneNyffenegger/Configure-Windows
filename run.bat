@@ -12,3 +12,5 @@
 @call environment.variables.bat
 
 @call sound.bat
+
+@call assoc_ftype_perl.bat
