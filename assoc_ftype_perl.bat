@@ -16,4 +16,8 @@
 @rem
 @for /f "usebackq" %%a in (`where perl.exe`) do @set perl_location=%%a
 
-@aeg add HKCU\Software\Classes\PerlScript\shell\open\command /t REG_SZ /d "%perl_location% %%1 %%*" /f
+@reg add HKCU\Software\Classes\PerlScript\shell\open\command /t REG_SZ /d "%perl_location% %%1 %%*" /f
+
+@rem TODO
+@rem   You also might want to add .pl to the env variable PATHEXT
+@rem   by adding ;.pl
