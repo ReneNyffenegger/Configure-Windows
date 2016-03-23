@@ -14,3 +14,5 @@
 @call sound.bat
 
 @call assoc_ftype_perl.bat
+
+@call office.bat
