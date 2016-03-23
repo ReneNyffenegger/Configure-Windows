@@ -5,9 +5,10 @@
 @rem
 @rem      Set size, color, copy/paste ability etc
 @rem      for cmd.exe:
+
 @regedit /s console.reg
 
-@call registry.explorer.bat
+@call explorer.bat
 
 @call environment.variables.bat
 
