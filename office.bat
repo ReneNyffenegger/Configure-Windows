@@ -1,3 +1,7 @@
+@rem  TODO
+@rem    Add Variable for 12.0, 14.0 etc
+
+
 @rem
 @rem                 http://superuser.com/a/633281/16610
 @rem
@@ -22,3 +26,13 @@
 
 @rem Don't capitalize first letters of table cells
 @reg add HKCU\software\microsoft\office\14.0\word\options\assist /v fCapTable_232_1       /t REG_DWORD  /d 0 /f
+
+@rem Show ribbon
+@rem
+@rem      https://blogs.technet.microsoft.com/office_resource_kit/2011/09/12/hiding-the-ribbon-in-office-2010/
+@rem
+@reg add HKCU\Software\Microsoft\Office\14.0\Common\Toolbars\Word /v QuickAccessToolbarStyle /t REG_DWORD /d 0 /f
+@rem 0: Expanded Ribbon.  Quick Access Toolbar is above the ribbon
+@rem 1: Expanded Ribbon.  Quick Access Toolbar is below the ribbon
+@rem 4: Collapsed Ribbon. Quick Access Toolbar is above the ribbon
+@rem 5: Collapsed Ribbon. Quick Access Toolbar is below the ribbon
