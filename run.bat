@@ -10,6 +10,8 @@
 
 @call explorer.bat
 
+@call internet.explorer.bat
+
 @call environment.variables.bat
 
 @call sound.bat
