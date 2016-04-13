@@ -27,6 +27,7 @@
 @rem Don't capitalize first letters of table cells
 @reg add HKCU\software\microsoft\office\14.0\word\options\assist /v fCapTable_232_1       /t REG_DWORD  /d 0 /f
 
+
 @rem Show ribbon
 @rem
 @rem      https://blogs.technet.microsoft.com/office_resource_kit/2011/09/12/hiding-the-ribbon-in-office-2010/
@@ -36,3 +37,8 @@
 @rem 1: Expanded Ribbon.  Quick Access Toolbar is below the ribbon
 @rem 4: Collapsed Ribbon. Quick Access Toolbar is above the ribbon
 @rem 5: Collapsed Ribbon. Quick Access Toolbar is below the ribbon
+
+@rem Excel
+@rem -----
+@rem Add only one worksheet in a new workbook
+@reg add HKCU\Software\Microsoft\Office\14.0\Excel\Options       /v DefSheets            /t REG_DWORD  /d 1 /f
