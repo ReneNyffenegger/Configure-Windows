@@ -1,12 +1,13 @@
 @rem Run as administrator (regedit seems to require it)
 @rem
 @rem
-@rem Note: the /s flag in regedit is for «silent»
+@rem Note: the /s flag in regedit is for Â«silentÂ»
 @rem
 @rem      Set size, color, copy/paste ability etc
 @rem      for cmd.exe:
 
-@regedit /s console.reg
+@rem @regedit /s console.reg
+@call console.bat
 
 @call explorer.bat
 
