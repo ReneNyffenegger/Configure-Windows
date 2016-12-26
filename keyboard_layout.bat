@@ -3,13 +3,15 @@
 @rem     See also {
 @rem 
 @rem         Microsoft Keyboard Layouter (http://www.microsoft.com/en-us/download/confirmation.aspx?id=22339)
+@rem
+@rem         http://vim.wikia.com/wiki/Map_caps_lock_to_escape_in_Windows
+@rem            [ especially for the AutoHotkey script ]
+@rem
+@rem         http://www.calmar.ws/vim/win-map/keymapping_win.html
+@rem
+@rem         https://github.com/ReneNyffenegger/swap-keys
 @rem     }
-@rem 
-@rem 
-@rem     Execute
-@rem        regedit /s keyboard_layout.reg
-@rem 
-@rem     http://www.calmar.ws/vim/win-map/keymapping_win.html
+@rem     
 @rem 
 @rem 
 @rem     Bytes {
@@ -30,15 +32,8 @@
 @rem 
 @rem     ------------------------------------------------------------------------------------------- }
 @rem 
-@rem     See also  {
 @rem 
-@rem         http://vim.wikia.com/wiki/Map_caps_lock_to_escape_in_Windows
-@rem            [ especially for the AutoHotkey script ]
-@rem 
-@rem     -------------------------------------------------------------------------------------------- }
-@rem 
-@rem 
-@rem   Scan Codes (Note, there are also Scan Codes for keys like the «mute key»): {
+@rem   Scan Codes (Note, there are also Scan Codes for keys like the Â«mute keyÂ»): {
 @rem       (Note, 0029 must be entered as 29,00)
 @rem 
 @rem   ^                 0029
@@ -52,8 +47,8 @@
 @rem   8                 0009
 @rem   9                 000A
 @rem   0                 000B
-@rem   ß                 000C
-@rem   ´                 000D
+@rem   ÃŸ                 000C
+@rem   Â´                 000D
 @rem   Q                 0010
 @rem   W                 0011
 @rem   E                 0012
@@ -64,7 +59,7 @@
 @rem   I                 0017
 @rem   O                 0018
 @rem   P                 0019
-@rem   Ü                 001A
+@rem   Ãœ                 001A
 @rem   +                 001B
 @rem   <                 002B
 @rem   A                 001E
@@ -76,8 +71,8 @@
 @rem   J                 0024
 @rem   K                 0025
 @rem   L                 0026
-@rem   Ö                 0027
-@rem   Ä                 0028
+@rem   Ã–                 0027
+@rem   Ã„                 0028
 @rem   Y                 002C
 @rem   X                 002D
 @rem   C                 002E
